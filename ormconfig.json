@@ -1,0 +1,10 @@
+{
+    "type": "postgres",
+    "host": "db-landevcorp.cyb4rfhyrsda.us-east-2.rds.amazonaws.com",
+    "port": 5432,
+    "username": "landevcorp",
+    "password": "Ealc020992+",
+    "database": "postgres",
+    "entities": ["build/model/**/*{.ts,.js}"],
+    "autoSchemaSync": true
+}
